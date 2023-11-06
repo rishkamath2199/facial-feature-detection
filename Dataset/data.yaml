@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['face', 'left_eye', 'left_eyebrow', 'mouth', 'nose', 'right_eye', 'right_eyebrow']
+
+roboflow:
+  workspace: inference-labs
+  project: face-annotations
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/inference-labs/face-annotations/dataset/3
